@@ -28,14 +28,14 @@ public class MainClass {
         char h = 97;        // ASCII code
 
         // non-primitive data type
-        String g = "Hello World!";
-        System.out.println(g);
-        System.out.println(g.length());
-        System.out.println(g.toUpperCase());
-        System.out.println(g.toLowerCase());
-        System.out.println(g.charAt(1));
-        System.out.println(g.indexOf("H"));
-        System.out.println(g.replace("e", "a"));
+        String i = "Hello World!";
+        System.out.println(i);
+        System.out.println(i.length());
+        System.out.println(i.toUpperCase());
+        System.out.println(i.toLowerCase());
+        System.out.println(i.charAt(1));
+        System.out.println(i.indexOf("H"));
+        System.out.println(i.replace("e", "a"));
     }
 }
 ```
