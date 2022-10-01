@@ -14,5 +14,9 @@ public class A {
         char y = 'a';
         System.out.println(x);
         System.out.println(y);
+
+        // identifier
+        String nama_aku = "Andi";
+        System.out.println(nama_aku);
     }
 }
