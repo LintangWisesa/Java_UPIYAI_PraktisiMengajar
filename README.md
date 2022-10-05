@@ -12,7 +12,9 @@
 
 ## Pertemuan 1 - Sabtu, 1 Oktober 2022
 
-Variabel dalam bahasa pemrograman Java harus memiliki tipe data yang spesifik, yang mengidentifikasikan ukuran maupun value dari variabel tersebut. Di Java, terdapat 2 jenis tipe data berdasarkan ukuran dan valuenya, yakni tipe data primitif dan tipe data non-primitif. Tipe data primitif memiliki ukuran memori tertentu namun tidak memiliki method tambahan. Sedangkan tipe data non-primitif merupakan object Java yang memiliki method tambahan tertentu.
+📁 Slide: [Primitive and Non Primitif Data Types](https://docs.google.com/presentation/d/1lmAKCo4QR-s9maFcgxjJX5b765MhIn2FLPQ_Mk0cj1s/edit?usp=sharing)
+
+Variabel dalam bahasa pemrograman Java harus memiliki tipe data yang spesifik, yang mengidentifikasikan ukuran maupun value dari variabel tersebut. Di Java, terdapat 2 jenis tipe data berdasarkan ukuran dan valuenya, yakni tipe data primitif (`boolean`, `byte`, `char`, `int`, `float`, `double`, `short`, `long`) dan tipe data non-primitif (`String`, `Array`, `Class`). Tipe data primitif memiliki ukuran memori tertentu namun tidak memiliki method tambahan. Sedangkan tipe data non-primitif merupakan object Java yang memiliki method tambahan tertentu.
 
 ```java
 public class MainClass {
@@ -36,6 +38,83 @@ public class MainClass {
         System.out.println(i.charAt(1));
         System.out.println(i.indexOf("H"));
         System.out.println(i.replace("e", "a"));
+    }
+}
+```
+
+<hr/>
+
+## Pertemuan 2 - Rabu, 5 Oktober 2022
+
+📁 Slide: [Primitive and Non Primitif Data Types](https://docs.google.com/presentation/d/1lmAKCo4QR-s9maFcgxjJX5b765MhIn2FLPQ_Mk0cj1s/edit?usp=sharing)
+
+Methods di bahasa pemrograman Java merupakan block code yang akan berjalan hanya ketika dipanggil. Dalam methods terdapat parameter yang dapat digunakan untuk menyisipkan argumen saat pemanggilan method. Selain method, block code di Java dapat pula berupa control flow statement yang terdiri atas decision making statement (`if`, `else if`, `else` dan `switch`), looping statement (`for`, `while`, `do while`) dan branching (`break`, `continue`, `return`).
+
+```java
+public class MainClass {
+
+    // method with a parameter
+    static void Halo(String x) {
+        System.out.println("Hello " + x + "!");
+    }
+
+    // method with multiple parameter
+    static void Jumlah(int x, int y){
+        System.out.println(x + y);
+    }
+
+    // return method
+    static int ReturnLima(){
+        return 5; 
+    }
+
+    public static void main(String[] args){
+        Halo("Andi");
+        Jumlah(20, 10);
+        System.out.println(ReturnLima());
+
+        // if statement
+        int nilai = 90;
+        if (nilai > 80){
+            System.out.println("ANDA LULUS!");
+        } else {
+            System.out.println("ANDA TIDAK LULUS!");
+        }
+
+        // else if statement
+        int x = 6;
+        if (x > 7){
+            System.out.println("NILAI X TINGGI");
+        } else if (x < 5){
+            System.out.println("NILAI X RENDAH");
+        } else {
+            System.out.println("NILAI X MEDIUM");
+        }
+        
+        // for loop increment
+        for(int i = 0; i < 100; i++){
+            System.out.println(i);
+        }
+
+        // for loop decrement
+        for(int i = 100; i > 0; i--){
+            System.out.println(i);
+        }
+
+        // for loop in array
+        String[] nama = {"Andi", "Budi", "Caca"};
+        for (int i = 0; i < nama.length; i++){
+            System.out.println(nama[i]);
+        }
+
+        // for loop in multidimensional array
+        int[][] angka = { {1, 2, 3, 4},  {5, 6, 7, 8} };
+        for (int i = 0; i < angka.length; i++){
+            for (int j = 0; j < angka[i].length; j++){
+                System.out.println(angka[i][j]);
+            }
+        }
+
     }
 }
 ```
