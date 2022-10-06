@@ -12,7 +12,7 @@
 
 ## Pertemuan 1 - Sabtu, 1 Oktober 2022
 
-📁 Slide: [Primitive and Non Primitif Data Types](https://docs.google.com/presentation/d/1lmAKCo4QR-s9maFcgxjJX5b765MhIn2FLPQ_Mk0cj1s/edit?usp=sharing)
+📁 Slide: [Primitive and Non Primitif Data Types](https://docs.google.com/presentation/d/1hYx5X2Bx5UTZZSK1zx5O_8tte8kYkgLgcF1gGYhJi6Q/edit?usp=sharing)
 
 Variabel dalam bahasa pemrograman Java harus memiliki tipe data yang spesifik, yang mengidentifikasikan ukuran maupun value dari variabel tersebut. Di Java, terdapat 2 jenis tipe data berdasarkan ukuran dan valuenya, yakni tipe data primitif (`boolean`, `byte`, `char`, `int`, `float`, `double`, `short`, `long`) dan tipe data non-primitif (`String`, `Array`, `Class`). Tipe data primitif memiliki ukuran memori tertentu namun tidak memiliki method tambahan. Sedangkan tipe data non-primitif merupakan object Java yang memiliki method tambahan tertentu.
 
@@ -46,7 +46,7 @@ public class MainClass {
 
 ## Pertemuan 2 - Rabu, 5 Oktober 2022
 
-📁 Slide: [Primitive and Non Primitif Data Types](https://docs.google.com/presentation/d/1lmAKCo4QR-s9maFcgxjJX5b765MhIn2FLPQ_Mk0cj1s/edit?usp=sharing)
+📁 Slide: [Java Methods & Control Flow Statements](https://docs.google.com/presentation/d/1lmAKCo4QR-s9maFcgxjJX5b765MhIn2FLPQ_Mk0cj1s/edit?usp=sharing)
 
 Methods di bahasa pemrograman Java merupakan block code yang akan berjalan hanya ketika dipanggil. Dalam methods terdapat parameter yang dapat digunakan untuk menyisipkan argumen saat pemanggilan method. Selain method, block code di Java dapat pula berupa control flow statement yang terdiri atas decision making statement (`if`, `else if`, `else` dan `switch`), looping statement (`for`, `while`, `do while`) dan branching (`break`, `continue`, `return`).
 
